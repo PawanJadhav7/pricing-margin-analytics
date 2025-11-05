@@ -93,7 +93,3 @@ Connect to PRICING_DB.GOLD and explore Margin Waterfall & Elasticity Dashboards.
 
 👉 [View on Portfolio → Pricing & Margin Analytics](https://pawanjadhav.cloud/pricingandmarginanalytics/)￼
 ```
-🧾 License
-```
-MIT License © 2025 Pawan Jadhav￼ — Data Engineering & Analytics
-```
