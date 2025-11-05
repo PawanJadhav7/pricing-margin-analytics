@@ -90,6 +90,6 @@ dbt run --select gold.*
 Connect to PRICING_DB.GOLD and explore Margin Waterfall & Elasticity Dashboards.
 ```
 🔗 Live Case Study
-```
+
 👉 [View on Portfolio → Pricing & Margin Analytics](https://pawanjadhav.cloud/pricingandmarginanalytics/)￼
 ```
