@@ -37,7 +37,7 @@ This architecture follows a **Medallion Lakehouse** pattern optimized for financ
 ---
 
 ### 📁 Repository Structure
-```text ```
+```text
 pricing-margin-analytics/
 │
 ├── src/
@@ -62,6 +62,7 @@ pricing-margin-analytics/
 ├── .env.sample              # Snowflake & AWS credentials (template)
 ├── .gitignore               # Ignored files & folders
 └── README.md                # This documentation
+```
 ---
 
 ### 🚀 Getting Started
@@ -70,25 +71,28 @@ pricing-margin-analytics/
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-
+```
 **2️⃣ Generate synthetic data**
 ```bash
 python src/generator/make_dataset.py
-
+```
 **3️⃣Load into Snowflake**
 ```bash
 python src/loaders/load_silver.py
-
+```
 **4️⃣ Transform and model**
 ```bash
 dbt run --select gold.*
-
+```
 **5️⃣ Visualize in Tableau/Power BI**
 Connect to PRICING_DB.GOLD and explore Margin Waterfall & Elasticity Dashboards.
-
+```
+```
 🔗 Live Case Study
 
 👉 [View on Portfolio → Pricing & Margin Analytics](https://pawanjadhav.cloud/pricingandmarginanalytics/)￼
-
+```
 🧾 License
+```
 MIT License © 2025 Pawan Jadhav￼ — Data Engineering & Analytics
+```
