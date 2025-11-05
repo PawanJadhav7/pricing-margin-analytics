@@ -84,9 +84,10 @@ python src/loaders/load_silver.py
 ```bash
 dbt run --select gold.*
 ```
+
 **5️⃣ Visualize in Tableau/Power BI**
-Connect to PRICING_DB.GOLD and explore Margin Waterfall & Elasticity Dashboards.
 ```
+Connect to PRICING_DB.GOLD and explore Margin Waterfall & Elasticity Dashboards.
 ```
 🔗 Live Case Study
 
