@@ -1,0 +1,70 @@
+# ============================
+# Python
+# ============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+*.egg
+.env
+.venv/
+ENV/
+env/
+venv/
+*.sqlite3
+.DS_Store
+# ============================
+# Jupyter / Notebooks
+# ============================
+.ipynb_checkpoints/
+*.ipynb_convert
+*.nbconvert
+# ============================
+# Data / Temp files
+# ============================
+data/
+tmp/
+output/
+logs/
+*.log
+*.tmp
+*.bak
+*.csv
+# ============================
+# IDE & OS Files
+# ============================
+.idea/
+.vscode/
+*.swp
+Thumbs.db
+Desktop.ini
+
+# ============================
+# Credentials / Secrets
+# ============================
+.env
+.env.*
+.envrc
+*.pem
+*.key
+*.pfx
+# ============================
+# dbt / Airflow / Cache
+# ============================
+dbt_modules/
+target/
+.venv/
+.airflow/
+airflow_logs/
+.cache/
+__pycache__/
+# ============================
+# Local assets / images
+# ============================
+assets/diagrams/*.png
+assets/images/*.png
+# ============================
+# Misc
+# ============================
+*.bak
+*.old
