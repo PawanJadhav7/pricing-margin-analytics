@@ -37,6 +37,7 @@ This architecture follows a **Medallion Lakehouse** pattern optimized for financ
 ---
 
 ### 📁 Repository Structure
+```text ```
 pricing-margin-analytics/
 │
 ├── src/
